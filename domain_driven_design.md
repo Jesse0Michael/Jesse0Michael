@@ -137,3 +137,10 @@ Proprietor of the models used in the business' Ubiquitous Language within the en
 
 ### Infrastructure
 Provides the technical capabilities that support the overarching layers.
+
+
+
+## References
+- [Everything You Always Wanted to Know About Domain Driven Design](https://medium.com/ssense-tech/domain-driven-design-everything-you-always-wanted-to-know-about-it-but-were-afraid-to-ask-a85e7b74497a)
+- [3 Useful Concepts in Domain Driven Design](https://medium.com/withbetterco/3-useful-concepts-in-domain-driven-design-d6c6d5036ab2)
+- [Models in DDD](https://dev.to/ielgohary/modules-in-ddd-9b7)
