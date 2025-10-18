@@ -1,8 +1,9 @@
 # Developer Experience
-DevEx is the systems, patterns, tools, and 
+DevEx is the systems, patterns, tools, and processes that make development enjoyable and productive.  
 DevEx removes hurdles for developer onboarding, development, maintenance, and troubleshooting. 
 
-> Developer Experience is **NOT** *developer familiarity*. It does not force developers to use the tools and processes that ***you're*** familiar with.
+> Developer familiarity is **NOT** *developer experience*. 
+> Forcing tools and processes that ***you're*** familiar with is not a good developer experience. Even when they work for ***you**.
 > 
 > **Developer Familiarity:**
 > - Locks teams into old patterns and brittle workflows  
@@ -27,3 +28,10 @@ It must be easy to:
 - Run tests locally, **quickly** and **reliably**
 - Mock dependencies and external systems and spin up local test environments
 - Understand test failures, debug tests, and remove flakiness
+
+## Infrastructure as Code
+Infrastructure should be defined as code, stored in version control, and reviewed through pull requests.
+- The infrastructure will be reproducible and consistent
+- Changes to infrastructure will be auditable and not forgotten
+- Infrastructure will be easier to understand and maintain
+- Changes can be automated
