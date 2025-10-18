@@ -16,7 +16,7 @@ Track CPU, memory, disk, and network usage for all containers.
 
 Tracing tells the story of a request and finds bottlenecks and opportunities for optimization.
 
-Traces should be sampleable and should not be considered as an accurate representation of all requests.
+Traces should be sample-able and should not be considered as an accurate representation of all requests.
 
 
 ### Logging
@@ -28,6 +28,10 @@ Log levels should be used appropriately:
 - **INFO**: Confirmation that things are working as expected. (always when something is created, updated, or deleted)
 - **WARN**: Something unexpected happened, but the software will try to continue operating as expected.  
 - **ERROR**: An issue has occurred, should point to an actionable bug or issue. Or an incident that needs to be reported and resolved.
+
+> DEBUG logs are great for local development and troubleshooting, but obviously shouldn't be enabled in production. 
+>
+>However... make it possible to enable DEBUG logs *per-request* or for a short period of time, without requiring a deployment, to have better troubleshooting in production
 
 ### Alerting
 
