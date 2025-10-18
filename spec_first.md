@@ -9,10 +9,6 @@ Before rushing to implementation, design the spec of the system first. The spec 
 
 > *Weeks of programming can sometimes save you hours of planning.*
 
-[5 Principles of API-First Development](https://www.algolia.com/blog/product/the-5-principles-of-api-first-development-and-what-does-api-first-even-mean)
-
-[Guide to API-First](https://www.postman.com/api-first/)
-
 ### Shared Understanding
 Everyone involved in the project (frontend, backend, QA, and PM) will be aligned on what the feature is and how its going to be used.
 
@@ -34,3 +30,7 @@ There are many code generation tools for different spec formats that can generat
 
 [oapi-codegen](https://github.com/deepmap/oapi-codegen) | 
 [buf.build](https://buf.build)
+
+## References
+- [5 Principles of API-First Development](https://www.algolia.com/blog/product/the-5-principles-of-api-first-development-and-what-does-api-first-even-mean)
+- [Guide to API-First](https://www.postman.com/api-first/)
