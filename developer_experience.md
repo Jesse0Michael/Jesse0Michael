@@ -29,6 +29,9 @@ It must be easy to:
 - Mock dependencies and external systems and spin up local test environments
 - Understand test failures, debug tests, and remove flakiness
 
+## Tooling
+Document your tooling with links on what it is, their documentation, how to install/access it, and examples how to use it.
+
 ## Infrastructure as Code
 Infrastructure should be defined as code, stored in version control, and reviewed through pull requests.
 - The infrastructure will be reproducible and consistent
